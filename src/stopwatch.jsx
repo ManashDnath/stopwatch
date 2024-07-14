@@ -31,9 +31,9 @@ function Watch() {
 
   return (
     <div>
-      <h1>Stop Watch</h1>
+      <h1>Stopwatch</h1>
       <div>
-        Time <span>{timeSchema(elapsetime)}</span>
+        Time: <span>{timeSchema(elapsetime)}</span>
       </div>
       <button
         onClick={() => {
